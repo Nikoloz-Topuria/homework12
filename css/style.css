@@ -1,0 +1,152 @@
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    background-image: url(../images/cover\ image.png);
+}
+
+
+/* header */
+
+header {
+    background: #2E0230;
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+
+
+
+.form1_div {
+    border-radius: 8px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    box-shadow: 0px -2px 5px 0px #F1ACEE;
+}
+
+input {
+    background: none;
+    border: none;
+    /* border: 1px solid #B052B5C9; */
+    padding: 14px 303px 15px 16px;
+
+}
+
+::placeholder {
+    color: rgba(158, 141, 158, 0.71);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.search_button {
+    border-radius: 0px 8px 8px 0px;
+    background: #B052B5;
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+
+}
+
+.fa-solid {
+    color: white;
+    width: 16px;
+    height: 16px;
+}
+
+.cart_cont {
+    display: flex;
+    align-items: center;
+}
+
+.second {
+    margin-right: 8px;
+    display: none;
+}
+
+.text_button {
+    margin-right: 8px;
+    border: 1px solid #F30AEA;
+    border-radius: 8px;
+    background: none;
+    padding: 8px 16px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px
+}
+
+/* .cart{
+    display: block;
+} */
+
+.new_search {
+    display: none;
+}
+
+
+
+/* form2 */
+
+.mainform_box {
+    border-radius: 20px;
+    border: 1px solid rgba(176, 82, 181, 0.79);
+    background: rgba(28, 19, 37, 0.80);
+    backdrop-filter: blur(5px);
+    width: 60%;
+    margin: 5% 20%;
+
+}
+
+h3 {
+    color: #FFF;
+    text-shadow: 2px 4px 4px rgba(249, 12, 239, 0.71);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-block: 3% 6%;
+}
+
+.forms_box {
+    display: flex;
+    justify-content: space-around;
+}
+
+#input2 {
+    width: 43%;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    margin-bottom: 2%;
+}
+
+
+
+.MainRadioBox{
+    display: block;
+}
+
+.textlabel{
+    margin-bottom: 2%;
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */fo
+}
+
+.inputsix{
+    display: block;
+}
+
+textarea{
+    background: none;
+    resize: none;
+    display: block;
+}
+

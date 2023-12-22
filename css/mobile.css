@@ -1,0 +1,12 @@
+@media (max-width:500px) {
+    .text_button{
+        display: none;
+    }
+    .second{
+        display: block;
+    }
+    .cart{
+        width: 32px;
+        height: 32px;
+    }
+}

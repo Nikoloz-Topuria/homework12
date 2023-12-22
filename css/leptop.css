@@ -1,0 +1,20 @@
+@media (max-width:1130px){
+    h3{
+       font-size: 28px;
+    }
+
+    #input2{
+        width: 30%;
+    }
+}
+
+@media (max-width:1000px) {
+    .form1_div {
+        display: none;
+    }
+
+    .new_search {
+        display: block;
+    }
+    
+}
